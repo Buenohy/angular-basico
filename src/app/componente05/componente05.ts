@@ -4,8 +4,9 @@ import { Component } from '@angular/core';
   selector: 'app-componente05',
   imports: [],
   templateUrl: './componente05.html',
-  styleUrl: './componente05.css'
+  styleUrl: './componente05.css',
 })
 export class Componente05 {
-
+  // Vetor de nomes
+  nomes: string[] = ['Ariane', 'Bruna', 'Caio', 'Denis'];
 }
