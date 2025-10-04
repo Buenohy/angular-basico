@@ -1,6 +1,11 @@
-@if(exibir){
+<button (click)="acao()">Clique aqui</button>
 
-<div class="w-[300px] h-[300px] bg-teal-300 m-2">Estou sendo exibido com a nova sintaxe if!</div>
+<hr />
+
+@if(exibir){
+<div class="w-[300px] h-[300px] bg-teal-300 m-2">
+  Estou sendo exibido com a nova sintaxe if! true
+</div>
 } @else {
-<p>O quadro não está sendo exibido.</p>
+<p>O quadro não está sendo exibido false.</p>
 }

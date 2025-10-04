@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { NgIf } from '@angular/common';
 @Component({
   selector: 'app-componente04',
   standalone: true,
@@ -9,4 +8,13 @@ import { NgIf } from '@angular/common';
 export class Componente04 {
   // Variável para exibir ou ocultar o quadrado
   exibir: boolean = true;
+
+  // Função para exibir ou ocultar o quadrado
+  acao() {
+    if (this.exibir === true) {
+      this.exibir = false;
+    } else {
+      this.exibir = true;
+    }
+  }
 }
