@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 })
 export class Componente06 {
   // Variável contendo uma linguagem (HTML, CSS, JS)
-  linguagem: string = 'HTML';
+  linguagem: string = 'JS';
 }

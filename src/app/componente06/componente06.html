@@ -1,6 +1,9 @@
-<div>
-  <p>Linguagem de marcação.</p>
-  <p>Linguagem de estilo.</p>
-  <p>Linguagem de programação.</p>
-  <p>Linguagem não encontrada.</p>
-</div>
+@switch (linguagem){ @case ('HTMl') {
+<p>Linguagem de marcação</p>
+} @case ('CSS') {
+<p>Linguagem de estilo.</p>
+} @case ('JS') {
+<p>Linguagem de programação.</p>
+} @default {
+<p>Linguagem não encontrada.</p>
+} }
